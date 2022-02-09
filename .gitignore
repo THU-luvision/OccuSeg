@@ -1,0 +1,9 @@
+*.so
+build
+__pycache__
+*.pyc
+sparseconvnet.egg-info
+.vscode
+.idea
+examples/ScanNet/ckpts
+examples/ScanNet/datasets/scannet_data/
