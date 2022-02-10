@@ -4,7 +4,7 @@
 This is the official code repository for OccuSeg, a state-of-the-art method for accurate joint 3D semantic and instance segmentation.
 
 ## License
-This project is released under the [GPLv3 license](LICENSE). We only allow free use for academic use. For commercial use, please contact us to negotiate a different license at luvisionsigma@outlook.com.
+This project is released under the [GPLv3 license](LICENSE). We only allow free use for academic use. For commercial use, please contact us to negotiate a different license by: `fanglu at tsinghua.edu.cn`
 
 ## Citing
 
