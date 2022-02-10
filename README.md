@@ -6,6 +6,20 @@ This is the official code repository for OccuSeg, a state-of-the-art method for 
 ## License
 This project is released under the [GPLv3 license](LICENSE). We only allow free use for academic use. For commercial use, please contact us to negotiate a different license at luvisionsigma@outlook.com.
 
+## Citing
+
+If you find our code useful, please kindly cite our paper:
+
+```bibtex
+@article{Han2020OccuSegO3,
+  title={OccuSeg: Occupancy-Aware 3D Instance Segmentation},
+  author={Lei Han and Tian Zheng and Lan Xu and Lu Fang},
+  journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020},
+  pages={2937-2946}
+}
+```
+
 ## Quickstart with docker
 0. Install docker and nvidia runtime following [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 1. Download the preprocessed ScanNet dataset from http://www.example.com
