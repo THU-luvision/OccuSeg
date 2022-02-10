@@ -27,8 +27,8 @@
    --use_feature c \
    --evaluate \
    --use_dense_model \
-   --checkpoint_file ckpts/lhanaf_instance_s50_val_rep1_withElastic/Epoch240.pth \
-  --all_to_train  
+   --checkpoint_file ckpts/baseline_m64.pth
+#   --all_to_train  
 #   --use_elastic \
 #   --checkpoint_file ckpts/lhanaf_dense_m32r1b2_instance/Epoch320.pth \
 #   --simple_train	\
@@ -36,8 +36,8 @@
 
    python evaluate_instance.py  \
    --taskname $TASK_NAME \
-   --dataset scannet\
-   --evaluate
+   --dataset scannet
+   # --evaluate
     echo "Done"
 
 # if you want to schedule multiple gpu jobs on a server, better to use this tool.

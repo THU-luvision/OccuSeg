@@ -1,4 +1,4 @@
-import open3d
+# import open3d
 
 from datasets import ScanNet
 from utils import evaluate_scannet, evaluate_stanford3D,WeightedCrossEntropyLoss, FocalLoss, label2color,evaluate_single_scan,cost2color

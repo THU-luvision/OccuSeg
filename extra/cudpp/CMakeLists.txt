@@ -15,7 +15,7 @@ option(CUDPP_BUILD_SHARED_LIBS
 
 option(CUDPP_BUILD_APPLICATIONS
   "If on, builds the sample applications."
-  ON
+  OFF
   )
 
 option(CUDA_VERBOSE_PTXAS
@@ -75,6 +75,7 @@ configure_file(
   ${CMAKE_CURRENT_SOURCE_DIR}/include/cudpp_config.h
   )
 
+if (CUDPP_BUILD_APPLICATIONS)
 set (CUDPP_APP_DATA_DIR
   "${CMAKE_SOURCE_DIR}/apps/data/"
   )
@@ -82,6 +83,7 @@ configure_file(
   ${CMAKE_CURRENT_SOURCE_DIR}/apps/common/include/common_config.h.in
   ${CMAKE_CURRENT_SOURCE_DIR}/apps/common/include/common_config.h
   )
+endif (CUDPP_BUILD_APPLICATIONS)
 
 # copy WIN32 DLLs
 if (WIN32)

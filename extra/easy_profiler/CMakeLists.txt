@@ -12,7 +12,7 @@ else ()
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif ()
 
-option(EASY_PROFILER_NO_GUI "Build easy_profiler without the GUI application (required Qt)" OFF)
+option(EASY_PROFILER_NO_GUI "Build easy_profiler without the GUI application (required Qt)" ON)
 
 set(EASY_PROGRAM_VERSION_MAJOR 2)
 set(EASY_PROGRAM_VERSION_MINOR 1)

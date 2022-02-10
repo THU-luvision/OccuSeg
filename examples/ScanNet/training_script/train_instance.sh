@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #block(name=occuseg_training_0, threads=10, memory=100000, subtasks=1, gpu=true, hours=200)
-   source activate p1
    TASK_NAME=occuseg_training_0
    python -u train_instance.py  \
    --taskname $TASK_NAME \
@@ -27,8 +26,8 @@
    --val_reps 3 \
    --use_feature c \
    --use_dense_model \
-   --use_elastic \
-    --all_to_train \
+   --use_elastic
+    # --all_to_train \
 #   --checkpoint_file ckpts/lhanaf_instance_s50_val_rep1_withElastic/Epoch250.pth
 #    --all_to_train
 #   --checkpoint_file ckpts/lhanaf_dense_m32r1b4_instance_validation_l2/Epoch400.pth

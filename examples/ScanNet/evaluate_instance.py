@@ -1,5 +1,5 @@
 
-import open3d
+# import open3d
 from config import get_args
 from config import ArgsToConfig
 from scipy.io import savemat
@@ -1323,12 +1323,12 @@ if __name__ == '__main__':
     args = get_args()
     # choose dataset
     if args.dataset == 'scannet':
-        candidate_path = './datasets/scannet_data/instance/test/*.npz'
+        # candidate_path = './datasets/scannet_data/instance/test/*.npz'
 
-        # if args.evaluate:
-        #     candidate_path = './datasets/scannet_data/instance/test/*.npz'
-        # else:
-        #     candidate_path = './datasets/scannet_data/instance/test/*.npz'
+        if args.evaluate:
+            candidate_path = './datasets/scannet_data/instance/test/*.npz'
+        else:
+            candidate_path = './datasets/scannet_data/instance/val/*.npz'
         class_num = 20
         volumetric_sizes_per_category = np.loadtxt("sizes_scannet.txt")
     elif args.dataset == 'stanford3d':
