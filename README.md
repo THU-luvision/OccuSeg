@@ -11,12 +11,15 @@ This project is released under the [GPLv3 license](LICENSE). We only allow free 
 If you find our code useful, please kindly cite our paper:
 
 ```bibtex
-@article{Han2020OccuSegO3,
-  title={OccuSeg: Occupancy-Aware 3D Instance Segmentation},
-  author={Lei Han and Tian Zheng and Lan Xu and Lu Fang},
-  journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+@INPROCEEDINGS{9157103,
+  author={Han, Lei and Zheng, Tian and Xu, Lan and Fang, Lu},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={OccuSeg: Occupancy-Aware 3D Instance Segmentation}, 
   year={2020},
-  pages={2937-2946}
+  volume={},
+  number={},
+  pages={2937-2946},
+  doi={10.1109/CVPR42600.2020.00301}}
 }
 ```
 
