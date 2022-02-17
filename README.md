@@ -27,9 +27,9 @@ If you find our code useful, please kindly cite our paper:
 
 ## Quickstart with docker
 0. Install docker and nvidia runtime following [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
-1. Download the preprocessed ScanNet dataset from http://www.example.com
+1. Download the preprocessed ScanNet dataset from https://153.35.185.228/opensource_data/OccuSeg/scannet_data_occuseg.tar.gz
 2. Modify the correct paths to the dataset and output directory in `docker_run.sh`
-3. Train the model with `bash docker_run.sh`. Replace `train_instance.sh` with `evaluate_instance.sh` to perform evaluation. A pertrained model is available at http://www.example.com, which is trained on the ScanNet training set.
+3. Train the model with `bash docker_run.sh`. Replace `train_instance.sh` with `evaluate_instance.sh` to perform evaluation. A pertrained model is available at https://153.35.185.228/opensource_data/OccuSeg/baseline_m64.pth, which is trained on the ScanNet training set.
 
 If you prefer to setup the environment or prepare the data manually, following the below instructions or checkout the `docker_build.sh`.
 
